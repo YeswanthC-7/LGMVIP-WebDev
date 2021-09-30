@@ -1,0 +1,542 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar {
+   display:flex; 
+   justify-content:center;
+   align-items:center;
+   position:sticky;
+   top:0;
+   cursor:pointer;
+   width:100%;
+   /* margin:auto; */
+
+}
+
+.nav-list {
+    width: 100%;
+    display:flex;
+    justify-content:center;
+}
+
+.list-items {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.nav-list li a:hover {
+    color:darkgray;
+}
+.nav-list li {
+    list-style: none;
+    padding: 10px;
+}
+
+.logo {
+    padding: 10px 70px;
+    color:aliceblue;
+}
+
+.background {
+   background : rgba(0,0,0,0.7) url("../img/bg.jpg");
+   background-size:cover;
+   background-blend-mode: darken;
+   
+   
+}
+
+#home {
+    background:url("../img/bg/bg.jpg");
+}
+
+.dot-btn {
+    padding:3px;
+}
+.dot-btn:hover{
+    background-color: black;
+}
+
+.main-box {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    height:95vh;
+
+}
+
+.firstHalf {
+    width:60%;
+    /* width: 100%; */
+    display:flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: center;
+    margin:auto;
+    max-width: 35%;
+    
+}
+
+.big-text {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.small-text {
+    font-size:large;
+    padding-bottom: 15px;
+}
+
+.btn-lm {
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    background: none;
+    color:aliceblue;
+    cursor:pointer;
+    margin-right: 20px;
+}
+
+
+.btn-lm:hover {
+    background-color:darkcyan;
+}
+
+.secondSection{
+    /* height:80vh; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.Sec-first-half {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.Sec-first-half h2 {
+    text-align: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.second-sec{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.second-sec p {
+    max-width:40%;
+    padding-right: 106px;
+    font-size: 21px;
+}
+
+#welcome-img {
+    width:180px;
+    border: 2px solid white;
+    border-radius: 90px;
+}
+
+.Sec-second-half {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    max-width:60%;
+    margin: auto;
+}
+
+.SSH-first{
+    padding:70px 50px 20px 50px;
+}
+
+.SSH-image {
+    width: 41px;
+    padding: 7px;
+    margin-left: 150px;
+    border:2px solid white;
+    border-radius:30px;
+    cursor: pointer;
+}
+
+.SSH-image:hover{
+    background-color:aqua;
+}
+
+.SSH-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.SSH-para {
+    padding-bottom: 10px;
+}
+.SSH-btn {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color:indigo;
+    color:white;
+    cursor:pointer;
+    margin:10px 0 10px 0;
+}
+
+.SSH-btn:hover {
+    background-color:gold;
+    color: black;
+}
+
+.ThirdSection {
+    display:flex;
+    flex-direction:column;
+}
+
+.TS-first-half {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.projects {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    max-width:60%;
+}
+
+.project-img {
+    height: 262px;
+    width: 189px;
+}
+
+.project-para {
+    max-width:200px;
+}
+
+h3{
+    font-size: 40px;
+    padding: 0 0 20px 0;
+}
+
+.project {
+    padding:30px 30px 0 30px ;
+}
+
+.project-title,.project-para {
+    padding:10px 0 0 0;
+}
+
+.price-table {
+    display:flex;
+    flex-direction:row;
+}
+
+li {
+    list-style:none
+}
+
+.TS-second-half {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.prices {
+    padding:20px 20px 20px 40px;
+    text-align:center;
+}
+
+.prices h4,ul {
+    padding: 5px;
+}
+
+.subs {
+    color:dimgray
+}
+
+.TS-third-half {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.video-projects {
+    /* width: 500px;
+    height: 330px;    */
+    widht:100%;
+    height:100%;
+    margin: 10px 40px 20px 40px;
+}
+
+.videos {
+    display:flex;
+    max-width: 80%;
+    /* overflow-x: scroll;
+    overflow: hidden; */
+}
+
+.test {
+    /* display:flex;
+    flex-direction:row; */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: 1300px;
+    overflow:hidden;
+    overflow-x: auto;
+    background-color: white;
+}
+
+.test li {
+    display: inline;
+    width: 150px;
+    height: 150px;
+}
+
+#frames {
+    display: inherit;
+    overflow-x:auto;
+    overflow:hidden;
+}
+
+.FourthSection {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.team {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.team h3 {
+    padding-top: 30px;
+}
+
+.profiles {
+    display:flex;
+    flex-direction:column;
+}
+
+.set-1,.set-2 {
+    display:flex;
+    flex-direction:row;
+}
+
+
+.profile {
+    padding:30px 100px;
+}
+.profile-img {
+    width:115px;
+    border:1px solid white;
+    border-radius:60px;
+    cursor: pointer;
+}
+
+.profile-bg {
+    /* background:rgba(0,0,0,0.7) url("../img/profile-bg.png");
+    background-size: cover;
+    background-blend-mode: darken; */
+}
+
+.profile-img:hover {
+    /* opacity:30%; */
+   
+    background-image: url("../img/profile-bg.png");
+    background-size: cover;
+   
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+.FifthSection {
+    padding: 46px;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  /* position: relative; */
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  
+  
+}
+
+.mySlides img{
+    width:480px;
+    height:480px;
+    width: 80%;
+    padding: 0px 224px 0px 252px;
+}
+
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+    max-width:700px;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.75;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.SixthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+  background: linear-gradient(
+60deg
+, black, transparent); 
+}
+
+.SixthSection h3 {
+    padding:30px;
+}
+
+.prices p {
+    max-width: 300px;
+}
+
+.email {
+    padding: 10px 115px 10px 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.map img {
+    width:600px;
+    padding: 90px 116px 10px 0px;
+}
+
+.Contact {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input {
+    padding: 5px 5px 5px 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+.cont {
+    padding:10px;
+}
+
+.contact-form h4 {
+   font-size: 55px;
+    padding: 35px 0 0 0;
+}
+
+.contact-form button {
+    margin:10px;
+}
+
+footer {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-bg {
+    background-color:gainsboro;
+}
+
+
+
+
+.cont {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cont:hover .image {
+  opacity: 0.3;
+}
+
+.cont:hover .middle {
+  opacity: 1;
+}
+
+/* .text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+} */
+
+
